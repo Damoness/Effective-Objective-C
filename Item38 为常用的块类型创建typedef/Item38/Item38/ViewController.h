@@ -16,8 +16,6 @@ typedef void (^completionHandler)(NSData *data,NSError *error);
 
 @interface ViewController : UIViewController
 
-
-
 -(void)startWithCompletionHandler:(completionHandler)handler;
 
 
