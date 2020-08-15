@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9753C024E7E581004D875E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9753BF24E7E581004D875E /* AppDelegate.m */; };
+		9C9753C324E7E581004D875E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9753C224E7E581004D875E /* SceneDelegate.m */; };
+		9C9753C624E7E581004D875E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9753C524E7E581004D875E /* ViewController.m */; };
+		9C9753C924E7E581004D875E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9753C724E7E581004D875E /* Main.storyboard */; };
+		9C9753CB24E7E582004D875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9753CA24E7E582004D875E /* Assets.xcassets */; };
+		9C9753CE24E7E582004D875E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9753CC24E7E582004D875E /* LaunchScreen.storyboard */; };
+		9C9753D124E7E582004D875E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9753D024E7E582004D875E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C9753BB24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Item05 用枚举表示状态、选项、状态码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9753BE24E7E581004D875E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C9753BF24E7E581004D875E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C9753C124E7E581004D875E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9C9753C224E7E581004D875E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9C9753C424E7E581004D875E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C9753C524E7E581004D875E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C9753C824E7E581004D875E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C9753CA24E7E582004D875E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C9753CD24E7E582004D875E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C9753CF24E7E582004D875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9753D024E7E582004D875E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9753B824E7E581004D875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9753B224E7E581004D875E = {
+			isa = PBXGroup;
+			children = (
+				9C9753BD24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码 */,
+				9C9753BC24E7E581004D875E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9753BC24E7E581004D875E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9753BB24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C9753BD24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码 */ = {
+			isa = PBXGroup;
+			children = (
+				9C9753BE24E7E581004D875E /* AppDelegate.h */,
+				9C9753BF24E7E581004D875E /* AppDelegate.m */,
+				9C9753C124E7E581004D875E /* SceneDelegate.h */,
+				9C9753C224E7E581004D875E /* SceneDelegate.m */,
+				9C9753C424E7E581004D875E /* ViewController.h */,
+				9C9753C524E7E581004D875E /* ViewController.m */,
+				9C9753C724E7E581004D875E /* Main.storyboard */,
+				9C9753CA24E7E582004D875E /* Assets.xcassets */,
+				9C9753CC24E7E582004D875E /* LaunchScreen.storyboard */,
+				9C9753CF24E7E582004D875E /* Info.plist */,
+				9C9753D024E7E582004D875E /* main.m */,
+			);
+			path = "Item05 用枚举表示状态、选项、状态码";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9753BA24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9753D424E7E582004D875E /* Build configuration list for PBXNativeTarget "Item05 用枚举表示状态、选项、状态码" */;
+			buildPhases = (
+				9C9753B724E7E581004D875E /* Sources */,
+				9C9753B824E7E581004D875E /* Frameworks */,
+				9C9753B924E7E581004D875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Item05 用枚举表示状态、选项、状态码";
+			productName = "Item05 用枚举表示状态、选项、状态码";
+			productReference = 9C9753BB24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9753B324E7E581004D875E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = damoness;
+				TargetAttributes = {
+					9C9753BA24E7E581004D875E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 9C9753B624E7E581004D875E /* Build configuration list for PBXProject "Item05 用枚举表示状态、选项、状态码" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9753B224E7E581004D875E;
+			productRefGroup = 9C9753BC24E7E581004D875E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9753BA24E7E581004D875E /* Item05 用枚举表示状态、选项、状态码 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9753B924E7E581004D875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9753CE24E7E582004D875E /* LaunchScreen.storyboard in Resources */,
+				9C9753CB24E7E582004D875E /* Assets.xcassets in Resources */,
+				9C9753C924E7E581004D875E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9753B724E7E581004D875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9753C624E7E581004D875E /* ViewController.m in Sources */,
+				9C9753C024E7E581004D875E /* AppDelegate.m in Sources */,
+				9C9753D124E7E582004D875E /* main.m in Sources */,
+				9C9753C324E7E581004D875E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C9753C724E7E581004D875E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9753C824E7E581004D875E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C9753CC24E7E582004D875E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9753CD24E7E582004D875E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9753D224E7E582004D875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C9753D324E7E582004D875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C9753D524E7E582004D875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3384B9A6U;
+				INFOPLIST_FILE = "Item05 用枚举表示状态、选项、状态码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.damoness.app.Item05---------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C9753D624E7E582004D875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3384B9A6U;
+				INFOPLIST_FILE = "Item05 用枚举表示状态、选项、状态码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.damoness.app.Item05---------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9753B624E7E581004D875E /* Build configuration list for PBXProject "Item05 用枚举表示状态、选项、状态码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9753D224E7E582004D875E /* Debug */,
+				9C9753D324E7E582004D875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9753D424E7E582004D875E /* Build configuration list for PBXNativeTarget "Item05 用枚举表示状态、选项、状态码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9753D524E7E582004D875E /* Debug */,
+				9C9753D624E7E582004D875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9753B324E7E581004D875E /* Project object */;
+}
